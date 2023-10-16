@@ -1,4 +1,4 @@
-from multiprocessing import cpu_count, Pool
+from multiprocessing import cpu_count, Pool, freeze_support
 from ounderstand.parsing_process import process_file, get_files
 
 
